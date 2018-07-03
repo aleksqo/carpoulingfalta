@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="Car Pouling"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#43b7ff"
+            android:id="@+id/textView1" />
+        <TextView
+            android:text="Disfruta, Ahorra dinero, Comparte tu carro, publica tus viajes"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:textColor="#7fffd4"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" />
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="match_parent"
+            android:layout_height="292.5dp"
+            android:id="@+id/imageView1"
+            android:adjustViewBounds="false"
+            android:foregroundGravity="fill|center" />
+        <Button
+            android:text="INGRESA"
+            android:layout_width="175.0dp"
+            android:background="#ef2f4f"
+            android:layout_height="fill_parent"
+            android:id="@+id/button1" />
+        <Button
+            android:text="REGISTRATE"
+            android:layout_width="175.0dp"
+            android:background="#ff69a038"
+            android:layout_height="fill_parent"
+            android:id="@+id/button1"
+            android:foregroundGravity="right" />
+    </LinearLayout>
+</RelativeLayout>
